@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Rokkitt" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="img/icons/favicon.ico" type="image/x-icon">
+  <title>Contact | CO:de Catalyst</title>
+</head>
+
+<body>
+  <!-- header & navigation -->
+  <header>
+    <nav role="navigation">
+      <img id="logo" src="img/codecatalyst.png" alt="CO:de Catalyst">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="prizes.html">Prizes</a></li>
+        <li><a href="guidelines.html">Guidelines</a></li>
+        <li><a href="contact.html" class="current">Contact</a></li>
+      </ul>
+    </nav>  
+  </header>
+  
+  <!-- body -->
+  <section>
+    <div class="main">
+      <!-- theCO contact information -->
+      <h1>Interested in Competing?</h1>
+      <p>Contact theCO for more information and to register for next year's competition.</p>
+      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2292.1167804665847!2d-88.85335446644724!3d35.6636384684507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887ea6bb9370d2cd%3A0x3e508aa604b85cf8!2stheCO!5e0!3m2!1sen!2sus!4v1455890960244" frameborder="0" allowfullscreen></iframe>
+      <h2>Address</h2>
+      <p>541 Wiley Parker Road<br>
+        Jackson, TN 38305</p>
+      <h2>Phone Number</h2>
+      <p><a href="tel:731-554-5555">731.554.5555</a></p>
+      <h2>Hours</h2>
+      <p><b>Monday-Friday:</b> 9:00am - 9:00pm<br>
+        <b>Saturday:</b> 9:00am - 5:00pm</p>
+      <h2>Email</h2>
+      <p>For <a href="mailto:molly@attheco.com">questions about CO:de Catalyst</a><br>
+        For <a href="mailto:info@attheco.com">questions about theCO</a></p>
+      <hr>
+      
+      <!-- form for submitting project -->
+      <h1 class="sec-header">Already Registered?</h1>
+      <p id="submit-proj">Submit your project now! (The project itself must be uploaded to <a href="https://github.com" target="_blank">GitHub</a>.) </p>
+      <!-- submit form - powered by formspree.io -->
+      <form action="//formspree.io/alt=molly@attheco.com"
+      method="POST">
+		    <label>Team Name</label>
+		    <input name="name" type="text" required><br><br>
+		    <label>Team Members</label>
+        <input name="members" type="text" required><br><br>
+        <label>School Name</label>
+        <input name="school" type="text" required><br><br>
+        <label>Email</label>
+		    <input name="email" type="email" required><br><br>
+        <label>GitHub link</label>
+        <input name="link" type="text" required><br><br>
+		    <label>What is the problem your project is solving?</label>
+		    <textarea name="message" required></textarea>
+		    <input id="submit" name="submit" type="submit" value="Submit">
+	    </form>
+      </div>
+  </section>
+</body>
+
+<!-- footer -->
+<footer>
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="prizes.html">Prizes</a>
+    <a href="guidelines.html">Guidelines</a>
+    <a href="contact.html" class="current">Contact</a>
+  </div>
+  <hr>
+  <!-- links to theCO's social media accounts -->
+  <div class="icons">
+    <a href="https://www.facebook.com/AtTheCO/" target="_blank">
+      <img class="icon" src="img/icons/Facebook.png" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com/attheco"  target="_blank">
+      <img class="icon" src="img/icons/Instagram.png" alt="Instagram">
+    </a>
+    <a href="https://www.linkedin.com/company/theco" target="_blank">
+      <img class="icon" src="img/icons/Linkedin.png" alt="LinkedIn">
+    </a>
+    <a href="https://twitter.com/attheco" target="_blank">
+      <img class="icon" src="img/icons/Twitter.png" alt="Twitter">
+    </a>
+  </div>
+  <p>Sponsored by theCO<br>
+    <span class="info">541 Wiley Parker Rd, Jackson, Tennessee 38305 | 
+    <a id="telephone" href="tel:731-554-5555">731.554.5555</a> | 
+    <a href="mailto:molly@attheco.com">email</a></span>
+  </p>
+  <p class="copy">&copy; Lauren Nieves and Alyssa Gowan</p>
+</footer>

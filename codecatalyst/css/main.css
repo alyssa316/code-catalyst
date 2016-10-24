@@ -1,0 +1,535 @@
+/* STYLING FOR ALL PAGES */
+
+  /* header */
+
+#logo {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%; 
+  margin-top: 5px;
+}
+
+nav {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  background-color: #34353B;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+nav ul {
+  background-color: #34353B;
+  display: inline-block;
+  margin: 0px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  padding: 15px 40px;
+}
+
+nav ul li a:hover {
+  background-color: #6DBD6D;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.current {
+  background-color: #339989;
+}
+
+  /* body */
+
+.main {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.main a {
+  text-decoration: none;
+  font-family: "Rokkitt", serif;
+  color: #42858C;
+}
+
+.main a:hover {
+  color: #34353B;
+  transition: all 0.3s ease;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  color: #6DBD6D;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  padding-top: 10px;
+  color: #339989;
+  font-size: 25px;
+}
+
+p {
+  font-family: "Rokkitt", serif;
+  font-size: 20px;
+}
+
+hr {
+  width: 90%;
+  margin-top: 10px;
+}
+
+  /* footer */
+
+.nav {
+  text-align: center;
+  font-weight: bold;
+}
+
+footer .nav {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  color: #FFF;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav a:hover {
+  color: #339989;
+  transition: all 0.3s ease;
+}
+
+footer .current {
+  color: #6DBD6D;
+  background-color: inherit;
+}
+
+footer {
+  background-color: #34353B;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: #42858C;
+}
+
+footer a:hover {
+  color: #6DBD6D;
+  transition: all 0.3s ease;
+}
+
+footer hr {
+  width: 70%;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.icons {
+  text-align: center;
+}
+
+.icon {
+  border-radius: 5px;
+}
+
+.icon:hover {
+  background-color: #6DBD6D;
+  transition: all 0.3s ease;
+}
+
+.info {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 16px;
+}
+
+.copy {
+  font-family: "Oswald",  sans-serif;
+  font-size: 13px;
+}
+
+#telephone {
+  color: #fff;
+}
+
+#telephone:hover {
+  color: #E2FEEF;
+}
+
+/* STYLING FOR SINGLE PAGES */
+
+  /* index.html */
+
+.fact {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#fact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#about {
+  font-weight: bold;
+  margin-right: 12%;
+  margin-left: 12%;
+}
+
+.h1 {
+  font-size: 45px;
+}
+
+.h2 {
+  font-size: 25px;
+}
+
+.emph1 {
+  font-size: 50px;
+}
+
+.emph2 {
+  font-size: 30px;
+}
+
+  /* prizes.html */
+
+.quote {
+  width: 85%;
+  display: inline-block;
+  padding-left: 3%;
+}
+
+.winners {
+  width: 12%;
+  display: inline-block;
+}
+
+  /* contact.html */
+
+#submit-proj {
+  margin-left: 30px;
+}
+
+  /* guidelines.html */
+
+.media {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* IMAGES & VIDEOS */
+
+  /* photo gallery */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.grid {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start;
+  height: 100%;
+  padding: 16px;
+  overflow: auto;
+  z-index: 0;
+  text-align: center;
+  -webkit-transition: opacity .75s;
+  transition: opacity .75s; 
+}
+
+.grid .grid-item {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 25%;
+  padding: 16px;
+  opacity: .75;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.grid .grid-item:hover {
+  opacity: 1;
+  transition: all 0.3s ease;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.grid img {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+  /* single images */
+
+#treehouse {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+#theco {
+  float: right;
+  width: 25%;
+  padding: 10px;
+}
+
+#ourjacksonhome {
+  width: 20%;
+  float: right;
+  padding: 10px;
+}
+
+#achievements {
+  float: right;
+  width: 480px;
+  padding: 10px;
+  display: block;
+}
+
+  /* videos & map */
+
+.mobile1,
+.mobile2 {
+  display: none;
+  font-weight: bold;
+}
+
+#sanfran2014 {
+  float: left;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+#sanfran2015 {
+  float: right;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+#vid-instructions {
+  float: right;
+  padding-bottom: 15px;
+  display: block;
+}
+
+#youtube_canvas img {
+  height: 270px;
+  width: 480px;
+  max-width:none;
+  background:none;
+}
+
+.video {
+  height: 270px;
+  width: 480px;
+  border: 0;
+}
+
+#map {
+  width: 700px;
+  height: 350px;
+  border: 0;
+  float: right;
+  padding: 10px;
+}
+
+
+/* FORM */
+
+label {
+  font-family: "Oswald", sans-serif;
+  color: #34353B;
+  float:left;
+  width:25%;
+  margin-right:0.5em;
+  padding-top:0.2em;
+  text-align:right;
+  font-weight:bold;
+}
+
+input,
+textarea {
+  font-family: "Oswald", sans-serif;
+  color: #42858C;
+  font-size: 14px;
+}
+
+input:not([type=submit]) {
+  width: 25%;
+}
+
+input[type=submit] {
+  display: block;
+  width: 15%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 50%;
+}
+
+input[type=text],
+input[type=email] {
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus,
+input[type=email]:focus {
+  width: 50%;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1280px) {
+  .grid .grid-item {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  #vid-instructions {
+    display: none;
+  }
+  .mobile2 {
+    display: inherit;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #map {
+    width: 100%;
+  }
+  input[type=submit] {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #youtube_canvas,
+  .video {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #logo {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #treehouse,
+  #theco {
+    width: 50%;
+  }
+  #ourjacksonhome {
+    display: none;
+  }
+  #achievements {
+    width: 100%;
+  }
+  nav ul li a {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .winners {
+    display: none;
+  }
+  .quote {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .h1 {font-size: 35px;
+  }
+  .h2 {font-size: 20px;
+  }
+  #youtube_canvas,
+  .video {
+    display: none;
+  }
+  .mobile1 {
+    display: inherit;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  input:not([type=submit]),
+  textarea {
+    width: 100%;
+  }
+  label {
+    width: 100%;
+    text-align: left;
+  }
+  input[type=text]:focus,
+  input[type=email]:focus {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .grid .grid-item {
+    width: 100%;
+  }
+  #treehouse,
+  #theco {
+    width: 100%;
+  }
+  #map {
+    display: none;
+  }
+}
